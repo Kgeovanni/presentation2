@@ -174,21 +174,6 @@ knitr::include_graphics('https://cdn.freelogovectors.net/wp-content/uploads/2019
   * They included Figure 1 and this allowed us to see the scatterplots.
   * Their enthusiasm to capture a range of skills by many individuals.]
 ---
-```{r xaringan-editable, echo=FALSE}
-xaringanExtra::use_editable(expires = 1)
-```
-Class: center, middle
-#Thank you for visiting. Share your thoughts below.
-.left[You can type.....]
-.center[or scribble your ideas.]
-.right[ Click the pencil top right.]
-
-##.can-edit[Type here]
-##.can-edit[Type here]
-##.can-edit[Type here]
-##.can-edit[Type here]
-
----
 ```{r, out.width='15%', fig.align='right'}
 knitr::include_graphics('https://cdn.freelogovectors.net/wp-content/uploads/2019/01/rutgers-logo_university.png')
 ```
