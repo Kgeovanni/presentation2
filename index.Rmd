@@ -24,9 +24,6 @@ library(xaringanExtra)
 devtools::install_github("gadenbuie/xaringanExtra")
 ```
 
-```{r share-again, echo=FALSE}
-xaringanExtra::use_share_again()
-```
 class: center, middle
 #.red[Hi] ![:scale 70px](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/emoji-one/104/waving-hand-sign_emoji-modifier-fitzpatrick-type-3_1f44b-1f3fc_1f3fc.png)
 #.black[Welcome to my presentation.]
