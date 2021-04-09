@@ -200,9 +200,6 @@ Class: center, middle
 ##.can-edit[Type here]
 ##.can-edit[Type here]
 
-```{r xaringan-scribble, echo=FALSE}
-xaringanExtra::use_scribble()
-```
 ---
 ```{r, out.width='15%', fig.align='right'}
 knitr::include_graphics('https://cdn.freelogovectors.net/wp-content/uploads/2019/01/rutgers-logo_university.png')
