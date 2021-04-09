@@ -20,6 +20,7 @@ library(tidyverse)
 library(knitr)
 library(kableExtra)
 library(xaringan)
+library(xaringanExtra)
 devtools::install_github("gadenbuie/xaringanExtra")
 ```
 
@@ -108,32 +109,19 @@ knitr::include_graphics('https://cdn.freelogovectors.net/wp-content/uploads/2019
 ```
 # Appropriateness of Analysis
 
-```{r xaringan-panelset, echo=FALSE}
-xaringanExtra::use_panelset()
-```
-.panelset[
-.panel[.panel-name[Analysis]
-
-```{r panel-chunk, fig.show='hide'}
-# ... r code ...
-```
 **Two-dimensional linear model.** Given what I learned in class, I do not think this was the best approach for the following reasons: 
 
 * Individuals will naturally make progress with time. Based on their variables and procedures, it is difficult to agree that their progress in learning objectives was only met as a result of intensity and duration. 
 * Violates rule for using linear regression analysis. Figure 1 demonstrates many "significant outliers." There are several points in the scatterplot that are far from the regression line which implies a large residual effect. This can be problematic as it can impact or reduce the fit of the regression.
 * Violates rule for using linear regression analysis. The data should show "homoscedasticity." This means that the data should remain constant (i.e., same) along the fit line. The scatterplots in Figure 1, instead show heteroscedasticity. The plots skew to the left and some appear to be on 0. For example scatterplot for intesity and adaptive; the data appears to be exactly on zero.
 * Residual Error. Most of the scatterplots in Figure 1 show large residual errors which can indicate that that interpretations might be incorrect. Residual plots may indicate that any data reported might be inaccurate and not trustworthy. In other words, Figure 1 shows residual plots that are random (cannot be used to predict one for another); most of the plots are skewed to the left. 
-]
 
-.panel[.panel-name[Figure 1]
-
+---
 ![:scale 630px](https://drive.google.com/uc?export=view&id=1y2MNVQPv2Tdv_sHp2SMGnkhp4-cJ9nBf)
 ]
-.panel[.panel-name[Table 2]
 
+---
 ![:scale 700px](https://drive.google.com/uc?export=view&id=19-sJVLMwvTGxBj8p-VoRR2uu5NdJCkdc)
-]
-]
 ---
 ```{r, out.width='15%', fig.align='right'}
 knitr::include_graphics('https://cdn.freelogovectors.net/wp-content/uploads/2019/01/rutgers-logo_university.png')
